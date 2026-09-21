@@ -1,0 +1,96 @@
+{
+    "items": [
+        {
+            "type": 0,
+            "title": "Consegnare progetto PAO",
+            "description": "Finire la relazione e caricare lo zip su Moodle",
+            "completed": false,
+            "priority": "Alta"
+        },
+        {
+            "type": 0,
+            "title": "Comprare libri semestre",
+            "description": "Passare in libreria universitaria per i testi del prossimo corso",
+            "completed": true,
+            "priority": "Bassa"
+        },
+        {
+            "type": 1,
+            "title": "Riunione di gruppo",
+            "description": "Revisione finale del codice prima della consegna",
+            "completed": false,
+            "startTime": "2026-09-10T14:00:00",
+            "endTime": "2026-09-10T15:30:00",
+            "location": "Dipartimento di Matematica, Padova",
+            "person": "Lucio Rossi",
+            "isConfirmed": true
+        },
+        {
+            "type": 1,
+            "title": "Visita oculistica",
+            "description": "Controllo annuale della vista",
+            "completed": false,
+            "startTime": "2026-10-02T09:30:00",
+            "endTime": "2026-10-02T10:00:00",
+            "location": "Studio Dott. Bianchi, Milano",
+            "person": "Dott. Bianchi",
+            "isConfirmed": false
+        },
+        {
+            "type": 2,
+            "title": "Scadenza sessione settembre",
+            "description": "Ultima sessione di consegna del progetto per l'a.a. 2025/26",
+            "completed": false,
+            "dueDate": "2026-09-15T23:59:00"
+        },
+        {
+            "type": 2,
+            "title": "Rinnovo abbonamento mezzi",
+            "description": "Rinnovare l'abbonamento mensile prima della scadenza",
+            "completed": true,
+            "dueDate": "2026-08-31T23:59:00"
+        },
+        {
+            "type": 3,
+            "title": "Promemoria backup codice",
+            "description": "Ricordarsi di fare un backup della repository prima della consegna",
+            "completed": false,
+            "reminderTime": "2026-09-12T09:00:00",
+            "frequency": "Giornaliera",
+            "notificationType": "Popup",
+            "snoozeCount": 1
+        },
+        {
+            "type": 3,
+            "title": "Prendere le medicine",
+            "description": "Promemoria per l'assunzione serale",
+            "completed": false,
+            "reminderTime": "2026-09-05T21:00:00",
+            "frequency": "Settimanale",
+            "notificationType": "Email",
+            "snoozeCount": 0
+        },
+        {
+            "type": 4,
+            "title": "Presentazione tesine corso",
+            "description": "Evento facoltativo di presentazione dei progetti migliori",
+            "completed": false,
+            "eventDate": "2026-09-20",
+            "eventType": "Universitario",
+            "organizer": "Dipartimento di Matematica",
+            "ticketCost": 0.0,
+            "guestCount": 2
+        },
+        {
+            "type": 4,
+            "title": "Concerto in piazza",
+            "description": "Concerto serale con amici del corso",
+            "completed": false,
+            "eventDate": "2026-09-27",
+            "eventType": "Heavy Metal",
+            "organizer": "Comune di Padova",
+            "ticketCost": 15.5,
+            "guestCount": 4
+        }
+    ]
+}

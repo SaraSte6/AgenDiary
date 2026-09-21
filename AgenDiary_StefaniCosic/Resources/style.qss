@@ -1,0 +1,161 @@
+
+* {
+    font-family: "Segoe UI", "Roboto", sans-serif;
+    color: #333333;
+}
+
+
+QMainWindow {
+    background-color: #F0F2F5; 
+}
+
+
+QToolBar {
+    background-color: #1976D2; 
+    border: none;
+    padding: 10px;
+    spacing: 15px;
+}
+
+QToolButton {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+QToolButton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+QSplitter::handle {
+    background-color: transparent;
+}
+
+
+QLineEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 4px; 
+    padding: 6px 10px;
+    font-size: 14px;
+    margin: 2px 0px;
+}
+QLineEdit:focus {
+    border: 1.5px solid #1976D2;
+}
+
+
+QListView {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+QListView::item {
+    background-color: transparent;
+    padding: 15px 20px; 
+    border-radius: 8px;
+    margin-bottom: 8px;
+    color: #333333;
+    font-size: 18px; 
+    font-weight: 500;
+}
+
+QListView::item:hover {
+    background-color: #E3F2FD;
+}
+
+QListView::item:selected {
+    background-color: #1976D2;
+    color: white;
+}
+
+
+QWidget#detailContainer {
+    background-color: #FFFFFF;
+    border-radius: 15px; 
+    margin: 10px 20px 20px 0px; 
+}
+
+
+
+
+QLabel#titleLabel {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1565C0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+
+QLabel#typeLabel {
+    font-size: 18px; 
+    font-weight: bold;
+    color: #1976D2;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+QLabel#typeLabel[isDeadline="true"] {
+    color: #D32F2F;
+}
+
+
+QLabel#headerLabel {
+    color: #FB8C00;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+QLabel#descriptionLabel, QLabel#extraInfoLabel {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.4;
+}
+
+
+QPushButton {
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+}
+
+
+QPushButton#editButton {
+    background-color: #9E9E9E;
+    color: white;
+}
+QPushButton#editButton:hover {
+    background-color: #757575;
+}
+QPushButton#editButton:disabled {
+    background-color: #E0E0E0;
+    color: #9E9E9E;
+}
+
+
+QPushButton#deleteButton {
+    background-color: #FF5252;
+    color: white;
+}
+QPushButton#deleteButton:hover {
+    background-color: #FF1744;
+}
+QPushButton#deleteButton:disabled {
+    background-color: #FFCDD2;
+    color: white;
+}

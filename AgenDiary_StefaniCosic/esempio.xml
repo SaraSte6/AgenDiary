@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Activities>
+    <Task>
+        <title>Consegnare progetto PAO</title>
+        <description>Finire la relazione e caricare lo zip su Moodle</description>
+        <completed>false</completed>
+        <priority>Alta</priority>
+    </Task>
+    <Task>
+        <title>Comprare libri semestre</title>
+        <description>Passare in libreria universitaria per i testi del prossimo corso</description>
+        <completed>true</completed>
+        <priority>Bassa</priority>
+    </Task>
+    <Appointment>
+        <title>Riunione di gruppo</title>
+        <description>Revisione finale del codice prima della consegna</description>
+        <completed>false</completed>
+        <startTime>2026-09-10T14:00:00</startTime>
+        <endTime>2026-09-10T15:30:00</endTime>
+        <location>Dipartimento di Matematica, Padova</location>
+        <person>Lucio Rossi</person>
+        <isConfirmed>true</isConfirmed>
+    </Appointment>
+    <Appointment>
+        <title>Visita oculistica</title>
+        <description>Controllo annuale della vista</description>
+        <completed>false</completed>
+        <startTime>2026-10-02T09:30:00</startTime>
+        <endTime>2026-10-02T10:00:00</endTime>
+        <location>Studio Dott. Bianchi, Milano</location>
+        <person>Dott. Bianchi</person>
+        <isConfirmed>false</isConfirmed>
+    </Appointment>
+    <Deadline>
+        <title>Scadenza sessione settembre</title>
+        <description>Ultima sessione di consegna del progetto per l'a.a. 2025/26</description>
+        <completed>false</completed>
+        <dueDate>2026-09-15T23:59:00</dueDate>
+    </Deadline>
+    <Deadline>
+        <title>Rinnovo abbonamento mezzi</title>
+        <description>Rinnovare l'abbonamento mensile prima della scadenza</description>
+        <completed>true</completed>
+        <dueDate>2026-08-31T23:59:00</dueDate>
+    </Deadline>
+    <Reminder>
+        <title>Promemoria backup codice</title>
+        <description>Ricordarsi di fare un backup della repository prima della consegna</description>
+        <completed>false</completed>
+        <reminderTime>2026-09-12T09:00:00</reminderTime>
+        <frequency>Giornaliera</frequency>
+        <notificationType>Popup</notificationType>
+        <snoozeCount>1</snoozeCount>
+    </Reminder>
+    <Reminder>
+        <title>Prendere le medicine</title>
+        <description>Promemoria per l'assunzione serale</description>
+        <completed>false</completed>
+        <reminderTime>2026-09-05T21:00:00</reminderTime>
+        <frequency>Settimanale</frequency>
+        <notificationType>Email</notificationType>
+        <snoozeCount>0</snoozeCount>
+    </Reminder>
+    <Event>
+        <title>Presentazione tesine corso</title>
+        <description>Evento facoltativo di presentazione dei progetti migliori</description>
+        <completed>false</completed>
+        <eventDate>2026-09-20</eventDate>
+        <eventType>Universitario</eventType>
+        <organizer>Dipartimento di Matematica</organizer>
+        <ticketCost>0</ticketCost>
+        <guestCount>2</guestCount>
+    </Event>
+    <Event>
+        <title>Concerto in piazza</title>
+        <description>Concerto serale con amici del corso</description>
+        <completed>false</completed>
+        <eventDate>2026-09-27</eventDate>
+        <eventType>Heavy Metal</eventType>
+        <organizer>Comune di Padova</organizer>
+        <ticketCost>15.5</ticketCost>
+        <guestCount>4</guestCount>
+    </Event>
+</Activities>

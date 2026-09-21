@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/appointement.jpg</file>
+        <file>Resources/deadline.jpg</file>
+        <file>Resources/delete.png</file>
+        <file>Resources/edit.png</file>
+        <file>Resources/logo.png</file>
+        <file>Resources/new_item.png</file>
+        <file>Resources/open_file.png</file>
+        <file>Resources/penna.png</file>
+        <file>Resources/save_file.png</file>
+        <file>Resources/task.jpg</file>
+        <file>Resources/style.qss</file>
+        <file>Resources/reminder.jpg</file>
+        <file>Resources/event.png</file>
+    </qresource>
+</RCC>
